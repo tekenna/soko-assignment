@@ -28,13 +28,13 @@ function Home_desk({catalog}) {
         <div className="home_container">
             <div className="list">
                 <div className="ul">
-                    <FaShoppingCart size="2.5em" color="rgb(42, 95, 240)" className="hidden" onClick={()=>id==""?setID({id:"hidden"}):setID({id:""})} />
+                    <FaShoppingCart size="2.5em" color="rgb(42, 95, 240)" className="hidden" onClick={()=>id===""?setID({id:"hidden"}):setID({id:""})} />
                     <ul id={id}>
-                        <li className={classname} onClick={()=>ChangeClassName(classname==""? classname="active":classname="active")}><span>Electronics</span></li>
-                        <li className="" onClick={()=>ChangeClassName(classname==""? classname="active":classname="active")} ><span>Face Mask</span></li>
-                        <li className="" onClick={()=>ChangeClassName(classname==""? classname="active":classname="active")}><span>Fresh Food</span></li>
-                        <li className="" onClick={()=>ChangeClassName(classname==""? classname="active":classname="active")}><span>Grocery</span></li>
-                        <li className="" onClick={()=>ChangeClassName(classname==""? classname="active":classname="active")}><span>Home</span></li>
+                        <li className={classname} onClick={()=>ChangeClassName(classname===""? classname="active":classname="active")}><span>Electronics</span></li>
+                        <li className="" onClick={()=>ChangeClassName(classname===""? classname="active":classname="active")} ><span>Face Mask</span></li>
+                        <li className="" onClick={()=>ChangeClassName(classname===""? classname="active":classname="active")}><span>Fresh Food</span></li>
+                        <li className="" onClick={()=>ChangeClassName(classname===""? classname="active":classname="active")}><span>Grocery</span></li>
+                        <li className="" onClick={()=>ChangeClassName(classname===""? classname="active":classname="active")}><span>Home</span></li>
                     </ul>
                     <a className="link" href="">View all cartigories</a>
                 </div>
@@ -57,7 +57,7 @@ function Home_desk({catalog}) {
                     
                     <h2>Bag <span className="num">0</span></h2>
                     <div className="content_wrap">
-                    <img src="../_images/emoji1.png" width="40%"/>
+                    <img src="../_images/emoji1.png" alt="emoji" width="40%"/>
                         <h4>It's empty hear</h4>
                         <p>start shopping to add to bag</p>
                     </div>

@@ -12,7 +12,7 @@ class Product extends Component {
             arrow2: {backgroundColor:"rgb(42, 95, 240)", size:"1em", padding:"0.5rem", marginRight:"1rem",borderRadius: "50%"},
             count : 0,
             catalog:{
-                image:<img src="../_images/men/men7.jpg" width="100%" alt=""/>,
+                image:<img src="../_images/men/men7.jpg" alt="item" width="100%" />,
                 title: <>Quality T's for men</>,
                 text: <p style={{color: 'gray', fontSize:"15px"}}>Sold in bulk. It comes in differnt colors with red, blue, black, pink, white, 
                         purple, white and brown. It also comes in all sizes.
@@ -24,38 +24,38 @@ class Product extends Component {
             },
             categories: [
                 {
-                    image:<img src="../_images/men/men1.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men1.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 }
                 ,{
-                    image:<img src="../_images/men/men2.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men2.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },{
-                    image:<img src="../_images/men/men3.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men3.jpg"alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },{
-                    image:<img src="../_images/men/men4.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men4.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },{
-                    image:<img src="../_images/men/men5.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men5.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },{
-                    image:<img src="../_images/men/men6.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men6.jpg" alt="item" height="150px" width="150px"/>,
                     discription: <>Quality T's for men</>
                 },{
-                    image:<img src="../_images/men/men7.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men7.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },
                 {
-                    image:<img src="../_images/men/men8.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men8.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },
                 {
-                    image:<img src="../_images/men/men9.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men9.jpg" alt="item" height="150px" width="150px" />,
                     discription: <>Quality T's for men</>
                 },
                 {
-                    image:<img src="../_images/men/men10.jpg" height="150px" width="150px" alt=""/>,
+                    image:<img src="../_images/men/men10.jpg" alt="item" height="150px" width="150px"/>,
                     discription: <>Quality T's for men</>
                 },
             ]
@@ -81,7 +81,7 @@ class Product extends Component {
                 </div>
                 <div className="prod_body_container">
                     <div className="prod_body">
-                        <div className="prod_img_cotainer"><img src="../_images/men/men7.jpg" width="100%" height="100%" alt=""/></div>
+                        <div className="prod_img_cotainer"><img src="../_images/men/men7.jpg" alt="item" width="100%" height="100%" /></div>
                         <div className="prod_body_content">
                             <div className="prod_dis_wrap">
                                 <div className="prod_discription">

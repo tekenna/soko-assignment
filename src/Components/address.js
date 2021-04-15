@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {GiCheckMark} from "react-icons/gi"
 
 function Address({state, setState}) {

@@ -12,7 +12,7 @@ function Nav() {
             <div className="nav_header_container">
                 <div className="nav_header">
                     <div className="nav_head_content">
-                        <p>Store made with  <span><img src="../_images/logo.png" width="40rem" /></span></p>
+                        <p>Store made with  <span><img src="../_images/logo.png" alt="logo" width="40rem" /></span></p>
                     </div>
                 </div>
             </div>

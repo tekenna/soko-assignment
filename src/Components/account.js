@@ -11,11 +11,7 @@ function Account({state, setState}) {
         setState({...state, refNum1: <GiCheckMark size="1em" color="white"  />, refStyle2:{backgroundColor: " rgb(42, 95, 240)", color: "white"}, addID:""})
         setNewSate(<div className="acc_small"><p className="txt">You are securely logged in</p></div>)
     }
-    // const btnState=()=>{
-    //     if(state.input==true){
-    //         setState({...state,  input:true})
-    //     }
-    // }
+    
     let accountSnipet =   <>
                             <p className="txt">To place your order, log in by entering your 10 digit mobile number</p>
                                 <div className="input_area">
@@ -24,7 +20,7 @@ function Account({state, setState}) {
                                     <div className="acc_field">
                                         <input type="text" id="tel" value={value.inputValue} id="input" onChange={(event)=>{
                                             newValue({inputValue:event.target.value, btnStyle: {backgroundColor:"yellow", color:" rgb(42, 95, 240)"}})
-                                            state.input==true?setState({...state,  input:true}):setState({...state,  input:false})
+                                            state.input===true?setState({...state,  input:true}):setState({...state,  input:false})
                                         }}>
                                         </input>
                                         <button type="submit" style={state.btnStyle} onClick={stateChange}  >Login</button>

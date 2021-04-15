@@ -5,7 +5,7 @@ import Product from "./Components/product"
 import Bag from "./Pages/emptybag"
 import NotLogged from "./Pages/notlogged"
 import Nav from "./Components/nav"
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+import {BrowserRouter as Router, Route} from "react-router-dom"
 
 
 
