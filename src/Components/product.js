@@ -1,7 +1,6 @@
 import React,{Component} from 'react'
 import Footer from "./footer"
-import {IoIosArrowBack} from "react-icons/io"
-import {IoIosArrowForward} from "react-icons/io"
+import {IoIosArrowBack,IoIosArrowForward} from "react-icons/io"
 import {Link} from "react-router-dom"
 
 class Product extends Component {
